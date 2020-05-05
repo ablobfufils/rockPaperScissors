@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Donns' Rock Paper Scissors Challenge Extraordinare</title>
+    <title>Donns' Rock Paper Scissors Challenge Extraordinaire</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="script" href="script.js">
 </head>
 
 <body>
 
-   <!-- Player options of either: rock, paper, or scissors -->
+    <!-- Headings -->
+    <div id="titleText"><h1>Donns' Rock Paper Scissors Challenge Extraordnaire</h1></div>
+    <div id="chooseText"><h2>Choose either Rock, Paper, or Scissors</h2></div>
+    <div id="rulesText"><h3>First to 5 wins is the Grand Champion and recieves a prize</h3></div>
+
+   <!-- Players options of either: rock, paper, or scissors -->
    <div class="humanChoices"> 
-   <img id="humanPaper" src="images/humanPaper.png">
-   <img id="humanRock" src="images/humanRock.png">
-   <img id="humanScissors" src="images/humanScissors.png">
+       <input type="image" id="humanRock" src="images/humanRock.png"></br>
+       <input type="image" id="humanPaper" src="images/humanPaper.png"></br>
+       <input type="image" id="humanScissors" src="images/humanScissors.png">
    </div>
-   
+
+   <!-- Alerts player who the winner is -->
+   <div id="outcomeText">""</div>
+
+<!-- Keeping track of Wins/Losses -->
+   <div class="winCounter">
+        <p id="allWins">""</p>
+
+
+   </div>
+
 
 
 
