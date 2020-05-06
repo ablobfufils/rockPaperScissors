@@ -3,7 +3,6 @@
 <head>
     <title>Donns' Rock Paper Scissors Challenge Extraordinaire</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="script" href="script.js">
 </head>
 
 <body>
@@ -14,7 +13,7 @@
     <div id="rulesText"><h3>First to 5 wins is the Grand Champion and recieves a prize</h3></div>
 
    <!-- Players options of either: rock, paper, or scissors -->
-   <div class="humanChoices"> 
+   <div id="humanChoices"> 
     <button id="rock" value="rock"><img src="images/humanRock.png"></button>
     <button id="paper" value="paper"><img src="images/humanPaper.png"></button>
     <button id="scissors" value="scissors"><img src="images/humanScissors.png"></button>
@@ -24,8 +23,9 @@
    <div id="outcomeText">""</div>
 
 <!-- Keeping track of Wins/Losses -->
-   <div class="winCounter">
-        <p id="allWins">""</p>
+   <div id="winCounter">
+        Your Wins:<p id="humanWins"></p>
+        Computer Wins:<p id="computerWins"></p>
 
 
    </div>
@@ -34,7 +34,7 @@
 
 
 
-
+<script src="script.js"></script>
 </body>
 
 
